@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Smart Login System</title>
+
+    <link rel="shortcut icon" href="./logo/images.png">
+
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/login.css">
+
+</head>
+<body>
+    
+
+    <section class="mt-5" >
+
+     <div class="container mx-auto   ">
+        <div class="login  text-center   ">
+            <h1>Smart Login System</h1>
+    
+            
+            <input  type="text" class="my-3 bg-transparent " id="user-email" placeholder="Enter Your Email">
+    
+    
+            <input  type="password" class="my-3 bg-transparent text-white " id="user-password" placeholder="Enter Your Password">
+    
+            
+            <p id="required" class="d-none" >
+    
+                <span class="text-danger  fw-medium m-3" > All inputs is required</span>
+    
+            </p>
+    
+            <p id="incorrect" class="d-none" >
+    
+                <span class="text-danger  fw-medium m-3" > incorrect email or password</span>
+    
+            </p>
+
+            <p id="please-signup" class="d-none" >
+    
+                <span class="text-danger  fw-medium m-3" > This Email doesn't Exist , please Sign up first</span>
+    
+            </p>
+    
+    
+            <button id="log-in" class="btn btn-outline-info " >Login</button>
+    
+            <p class="text-white" >
+    
+                Don’t have an account?
+    
+                <a id="sign-up" class="text-white text-decoration-none fw-medium"  href="#">Sign Up</a>
+    
+            </p>
+    
+          </div>
+     </div>
+        
+    </section>
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js" ></script>
+    <script src="./JS/login.js" ></script>
+</body>
+</html>

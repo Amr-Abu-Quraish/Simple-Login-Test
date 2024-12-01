@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: #24353F;
+   
+}
+
+.container {
+    width: 60%;
+}
+
+.container .sign-up {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);;
+    padding: 40px 30px ;
+
+}
+
+.container .sign-up h1 {
+    color: #17A2B8;
+    margin-bottom: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+
+.container .sign-up input {
+
+    border: 1px solid #ced4da;
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 20px 15px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.container .sign-up input::placeholder {
+    color: #fff;
+}
+
+.container .sign-up input:focus{
+    outline: 1px solid #17A2B8;
+}
+
+.container .sign-up button{
+    width: 100%;
+
+    margin-block: 15px;
+}
